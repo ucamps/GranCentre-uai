@@ -40,59 +40,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginHorizontal="5dp">
-        <ImageView
-            android:id="@+id/tiendas"
-            android:src="@drawable/parking"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
+        android:text="aaaa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-            />
-        <ImageView
-            android:id="@+id/peliculas"
-            android:src="@drawable/movies"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-            android:onClick="imgclick"
-            />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginHorizontal="5dp">
-        <ImageView
-            android:id="@+id/parking"
-            android:src="@drawable/parking"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-
-            />
-        <ImageView
-            android:id="@+id/cas"
-            android:src="@drawable/parking"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-            android:onClick="imgclick"
-            />
-    </LinearLayout>
 </LinearLayout>
