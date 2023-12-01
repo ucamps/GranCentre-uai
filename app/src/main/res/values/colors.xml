@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cafe">#B88F52</color>
+    <color name="cafe_claro">#EFD3AB</color>
 </resources>
