@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
-    ImageView btRestaurant, btCartelera, btHotel, btParking, btBotigues, btMapa;
+    ImageView btRestaurant, btCartelera, btHotel, btParking,btBotigues,btMapa;
     ImageView[] img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +21,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btHotel = findViewById(R.id.hoteles);
         btParking= findViewById(R.id.parking);
         btBotigues = findViewById(R.id.botiga);
-        btBotigues = findViewById(R.id.mapa);
-        img = new ImageView[]{btRestaurant, btCartelera, btBotigues,btMapa};
+        btMapa = findViewById(R.id.mapa);
+
+
+        img = new ImageView[]{btRestaurant,btCartelera,btHotel,btParking,btBotigues,btMapa};
         //Detectar clic botons:
         int i=0;
         for(ImageView vi : img ){
@@ -54,12 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         startActivity(intent);
                     } else {
                         if (v.getId() == R.id.botiga) {
-                            Intent pag = new Intent(MainActivity.this, ClBotigues.class);
-                            startActivity(pag);
+                            Intent intent = new Intent(this, ClBotigues.class);
+                            startActivity(intent);
                         } else {
                             if (v.getId() == R.id.mapa) {
-                                Intent pag = new Intent(this, ClMapa.class);
-                                startActivity(pag);
+                                Intent intent = new Intent(this, ClMapa.class);
+                                startActivity(intent);
                             }
                         }
                     }
