@@ -87,7 +87,7 @@
         android:padding="10dp"
         android:layout_marginHorizontal="5dp">
         <ImageView
-            android:id="@+id/botiga"
+            android:id="@+id/tiendas"
             android:src="@drawable/botiga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
 
             />
         <ImageView
-            android:id="@+id/mapa"
+            android:id="@+id/cacas"
             android:src="@drawable/hotels"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

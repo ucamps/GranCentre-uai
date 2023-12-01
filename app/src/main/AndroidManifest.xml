@@ -21,6 +21,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ClRestaurant"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClCartelera"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClHotel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClParking"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClMapa"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClBotigues"
+            android:exported="false"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
