@@ -34,50 +34,129 @@
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TableRow>
+        <TableRow
+            android:background="@color/gris"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_weight="3">
+                android:id="@+id/imgRes"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/gris_oscuro">
 
             </ImageView>
             <LinearLayout
+                android:background="@color/gris_oscuro"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+
+                android:padding="5dp">
 
             <TextView
-
-                android:text="Nom Restaurant"
+                android:textStyle="bold"
+                android:text="UDON Mataro Parc"
                 android:layout_width="wrap_content"
                 android:textSize="20dp"
                 android:layout_height="wrap_content"></TextView>
 
-            <TextView android:text="casa"
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/pag"
+                android:text="Pagina Web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
-            <TextView
-                android:id="@+id/pag"
-                android:text="pagina web del restaurant"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+                <TextView
+                    android:id="@+id/tel"
+                    android:paddingLeft="10dp"
+
+                    android:text="telefon del restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/ubi"
+                android:paddingLeft="10dp"
+                android:text="ubicacio del restaurnat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/trip"
+                    android:paddingLeft="10dp"
+                    android:text="Tripadvisor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:background="@color/gris"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgRes2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:background="@color/gris_oscuro">
+
+        </ImageView>
+        <LinearLayout
+            android:background="@color/gris_oscuro"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            android:padding="5dp">
+
+            <TextView
+                android:textStyle="bold"
+                android:text="UDON Mataro Parc"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/pag1"
+                android:text="Pagina Web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/tel2"
+                android:paddingLeft="10dp"
+
+                android:text="telefon del restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/ubi2"
+                android:paddingLeft="10dp"
                 android:text="ubicacio del restaurnat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
-                android:id="@+id/tel"
-                android:text="telefon del restaurant"
+                android:id="@+id/trip2"
+                android:paddingLeft="10dp"
+                android:text="Tripadvisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
-            </LinearLayout>
 
-
+        </LinearLayout>
         </TableRow>
     </TableLayout>
 </LinearLayout>

@@ -1,16 +1,16 @@
 package com.example.intents;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
-    ImageView btRestaurant, btCartelera, btHotel, btParking;
+    ImageView btRestaurant, btCartelera, btHotel, btParking,btBotigues,btMapa;
     ImageView[] img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btCartelera = findViewById(R.id.movies);
         btHotel = findViewById(R.id.hoteles);
         btParking= findViewById(R.id.parking);
-        img = new ImageView[]{btRestaurant, btCartelera};
+        btBotigues = findViewById(R.id.botiga);
+        btMapa = findViewById(R.id.mapa);
+
+
+        img = new ImageView[]{btRestaurant,btCartelera,btHotel,btParking,btBotigues,btMapa};
         //Detectar clic botons:
         int i=0;
         for(ImageView vi : img ){
