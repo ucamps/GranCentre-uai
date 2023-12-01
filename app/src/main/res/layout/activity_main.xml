@@ -36,7 +36,7 @@
             android:contentDescription="null"
 
             />
-        <ImageView
+        <ImageButton
             android:id="@+id/hoteles"
             android:src="@drawable/hotels"
             android:layout_width="wrap_content"

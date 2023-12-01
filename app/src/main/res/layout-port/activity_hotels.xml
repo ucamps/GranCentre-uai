@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HotelsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOTELS"
+        android:textSize="25sp"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textColor="#818285"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow>
+            <ImageView
+                android:layout_width="215dp"
+                android:layout_height="130dp"
+                android:id="@+id/perro"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:text="Nom Hotel"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textColor="#818285"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btGps1"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="GPS" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="215dp"
+                android:layout_height="130dp"
+                android:id="@+id/gato"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:text="Nom hotel"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textColor="#818285"
+                android:textSize="18sp"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="Email"
+                android:id="@+id/btEmail1"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
