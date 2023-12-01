@@ -24,19 +24,31 @@
         android:layout_height="match_parent"
         android:gravity="center">
 
+
+
+        <Spinner
+            android:id="@+id/valoracio_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
         <TableRow>
+
             <ImageView
                 android:layout_width="215dp"
                 android:layout_height="130dp"
-                android:id="@+id/perro"
+                android:id="@+id/imgHotel1"
                 android:layout_marginStart="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                />
 
             <TextView
-                android:text="Nom Hotel"
+                android:text="URH Ciutat de Mataró"
                 android:typeface="monospace"
                 android:textStyle="bold"
                 android:textColor="#818285"
-                android:textSize="18sp"/>
+                android:textSize="13sp"/>
 
             <Button
                 android:id="@+id/btGps1"
@@ -45,6 +57,7 @@
                 android:layout_height="30dp"
                 android:text="GPS" />
 
+
         </TableRow>
 
         <TableRow
@@ -52,7 +65,7 @@
             <ImageView
                 android:layout_width="215dp"
                 android:layout_height="130dp"
-                android:id="@+id/gato"
+                android:id="@+id/imgHotel2"
                 android:layout_marginStart="10dp"/>
 
             <TextView
@@ -69,6 +82,29 @@
                 android:id="@+id/btEmail1"
                 style="@style/Widget.MaterialComponents.Button.TextButton.Icon"/>
 
+
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="215dp"
+                android:layout_height="130dp"
+                android:id="@+id/imgHotel3"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:text="Nom Hotel"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textColor="#818285"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/btGps3"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="GPS" />
 
         </TableRow>
 

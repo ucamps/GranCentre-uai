@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">intents</string>
+    <string-array name="valoracio_array">
+        <item>★★★★★</item>
+        <item>★★★★</item>
+        <item>★★★</item>
+        <item>★★</item>
+        <item>★</item>
+    </string-array>
 </resources>
