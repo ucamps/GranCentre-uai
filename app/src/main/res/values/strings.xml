@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">intents</string>
+    <string name="app_name">Mataro Parc</string>
+    <string-array name="social_networks_array">
+        <item>None</item>
+        <item>Japonesa</item>
+        <item>italia</item>
+        <item>Francesa</item>
+        <item>Americana</item>
+    </string-array>
 </resources>
