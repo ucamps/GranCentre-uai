@@ -1,112 +1,320 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ClRestaurant"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-<TextView
+    android:background="@color/negro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/gris"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:text="Cartelera"
+            android:paddingLeft="21dp"></TextView>
+
+        <ImageView
+            android:id="@+id/matparc"
+            android:layout_width="20dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:paddingRight="5dp"></ImageView>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:background="@color/gris"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgRes"
+                android:layout_height="250dp"
+                android:layout_width="100dp"
+                android:layout_weight="3"
+
+                android:background="@color/gris_oscuro">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/gris_oscuro"
+                android:layout_weight="2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Los Juegos del Hambre: Balada de pájaros cantores y serpientes"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:paddingBottom="5dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="165 min | EE.UU | Acción +12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:textSize="12dp"
+                    android:paddingLeft="10dp"
+                    android:text="Tom Blyth Rachel Zegler Hunter Schafer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="Dir.: Francis Lawrence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
-    android:layout_marginBottom="10dp"
-
-    android:textSize="30dp"
-    android:text="Mataro Park"
-    android:gravity="center">
-
-</TextView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    android:orientation="horizontal">
+                <TextView
+                    android:background="@color/negro"
+                    android:padding="3dp"
+                    android:textColor="@color/blanco_claro"
+                    android:text="16:30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"></TextView>
+    <TextView
+        android:background="@color/negro"
+        android:padding="3dp"
+        android:textColor="@color/blanco_claro"
+        android:text="18:45"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="5dp">
-        <ImageView
-            android:id="@+id/restaurante"
-            android:src="@drawable/restaurants"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-
-            />
-        <ImageView
-            android:id="@+id/hoteles"
-            android:src="@drawable/hotels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-
-            />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_margin="3dp"></TextView>
+    <TextView
+        android:background="@color/negro"
+        android:padding="3dp"
+        android:textColor="@color/blanco_claro"
+        android:text="19:45"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:padding="10dp"
-
-        android:layout_marginHorizontal="5dp">
-        <ImageView
-            android:id="@+id/parking"
-            android:src="@drawable/parking"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-
-            />
-        <ImageView
-            android:id="@+id/movies"
-            android:src="@drawable/movies"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
-
-            />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_margin="3dp"></TextView>
+    <TextView
+        android:background="@color/negro"
+        android:padding="3dp"
+        android:textColor="@color/blanco_claro"
+        android:text="22:00"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginHorizontal="5dp">
-        <ImageView
-            android:id="@+id/tiendas"
-            android:src="@drawable/botiga"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
+        android:layout_margin="3dp"></TextView>
+</LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/gris"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
 
-            />
-        <ImageView
-            android:id="@+id/cacas"
-            android:src="@drawable/hotels"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:gravity="right|center_vertical"
-            android:contentDescription="null"
+            <ImageView
+                android:id="@+id/imgRes2"
+                android:layout_height="250dp"
+                android:layout_width="100dp"
+                android:layout_weight="3"
 
-            />
-    </LinearLayout>
+                android:background="@color/gris_oscuro">
 
+            </ImageView>
+            <LinearLayout
+                android:background="@color/gris_oscuro"
+                android:layout_weight="2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
 
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Napoleón"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="158 min | Reino Unido | Acción | +18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:textSize="12dp"
+                    android:paddingLeft="10dp"
+                    android:text="Vanessa Kirby Joaquin Phoenix Ludivine Sagnier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="Dir.: Ridley Scott"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="16:45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="17:30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="20:15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="22:00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/gris"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgRes3"
+                android:layout_height="250dp"
+                android:layout_width="100dp"
+                android:layout_weight="3"
+                android:background="@color/gris_oscuro">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/gris_oscuro"
+                android:layout_weight="2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Ocho apellidos marroquís"
+                    android:layout_width="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="97 min | España | Comedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:textSize="12dp"
+                    android:paddingLeft="10dp"
+                    android:text="María Ramos Mouhoub María Ramos Mouhoub Elena Irureta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:textSize="12dp"
+                    android:text="Dir.: Álvaro Fernández Armero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"></TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="16:45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="19:30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+
+                    <TextView
+                        android:background="@color/negro"
+                        android:padding="3dp"
+                        android:textColor="@color/blanco_claro"
+                        android:text="22:00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
 </LinearLayout>
