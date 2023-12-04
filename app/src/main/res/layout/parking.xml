@@ -29,57 +29,93 @@
             android:src="@drawable/logo"
             android:paddingRight="5dp"></ImageView>
     </LinearLayout>
-
-    <TableLayout
-        android:layout_margin="20dp"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    <TableRow
-        android:background="@color/groc"
-        android:padding="10dp"
-        android:layout_marginBottom="10dp">
-
-        <ImageView
-            android:id="@+id/imgParking1"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_weight="3" />
-        <LinearLayout
-            android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <TableLayout
+            android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center">
-            <TextView
-                android:text="Plaçes de parking"
-                android:layout_width="wrap_content"
-                android:textSize="20dp"
-                android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content">
+            <TableRow
+                android:background="@color/groc"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Parking Gratuit Mataro Parc"
+                    android:gravity="center"
+                    android:paddingVertical="10dp">
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/parkingGratuit"
+                    android:src="@drawable/parkingMataroGratuit"
+                    android:layout_height="190dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2">
+                </ImageView>
 
-            <TextView android:text="Adreça"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/email1"></TextView>
+                <TextView
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:text="+de 300 plaçes"
+                    android:textSize="10dp"></TextView>
 
-            <TextView
-                android:id="@+id/web1"
-                android:text="pagina web"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+            </TableRow>
 
-            <TextView
-                android:id="@+id/telefon1"
-                android:text="telefon del restaurant"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
+            <TableRow
+                android:background="@color/groc"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Parking Subterrani Mataro Parc"
+                    android:gravity="center"
+                    android:paddingVertical="10dp">
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/parkingSubterrani"
+                    android:src="@drawable/parkingSubterrani"
+                    android:layout_height="190dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2">
+                </ImageView>
 
-            <TextView
-                android:id="@+id/ubi1"
-                android:text="ubicacio del restaurnat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></TextView>
-        </LinearLayout>
-    </TableRow>
-    </TableLayout>
+                <TextView
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:text="+de 400 plaçes"
+                    android:textSize="10dp"></TextView>
+
+            </TableRow>
+            <TableRow
+                android:background="@color/groc"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Aparcament plaça de les tereses / P2"
+                    android:gravity="center"
+                    android:paddingVertical="10dp">
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/parking"
+                    android:src="@drawable/plaçaDeLesTereses"
+                    android:layout_height="190dp"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2">
+                </ImageView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="10dp"
+                    android:text="330 plaçes"
+                    android:textSize="10dp"></TextView>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>
