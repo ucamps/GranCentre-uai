@@ -27,6 +27,7 @@ public class ClRestaurant extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.restaurants);
         setupSpinnerBasic();
+        setupSpinnerValor();
         imgRestaurante = findViewById(R.id.imgRes);
         imgRestaurante2 = findViewById(R.id.imgRes2);
         imgRestaurante3 = findViewById(R.id.imgRes3);
@@ -137,4 +138,22 @@ public class ClRestaurant extends AppCompatActivity implements View.OnClickListe
 
 
     }
+    private void setupSpinnerValor() {
+        Spinner spinner = findViewById(R.id.spinner_valor);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.valoracio_hotels, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+         spinner = findViewById(R.id.spinner_valor2);
+        adapter = ArrayAdapter.createFromResource(this,
+                R.array.valoracio_hotels, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner = findViewById(R.id.spinner_valor3);
+        adapter = ArrayAdapter.createFromResource(this,
+                R.array.valoracio_hotels, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+    }
 }
+

@@ -109,7 +109,10 @@
                     android:text="Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
-
+                <Spinner
+                    android:id="@+id/spinner_valor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
 
 
@@ -171,7 +174,10 @@
                 android:text="Tripadvisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
-
+            <Spinner
+                android:id="@+id/spinner_valor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
         </LinearLayout>
         </TableRow>
         <TableRow
@@ -231,7 +237,10 @@
                     android:text="Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
-
+                <Spinner
+                    android:id="@+id/spinner_valor3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
         </TableRow>
     </TableLayout>
