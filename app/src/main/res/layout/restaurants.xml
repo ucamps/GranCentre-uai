@@ -84,7 +84,7 @@
             <TextView
                 android:paddingLeft="10dp"
                 android:id="@+id/pag"
-                android:text="Pagina Web"
+                android:text="🌐 Pagina Web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
@@ -92,24 +92,42 @@
                     android:id="@+id/tel"
                     android:paddingLeft="10dp"
 
-                    android:text="telefon del restaurant"
+                    android:text="📞 telefon del restaurant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/ubi"
                 android:paddingLeft="10dp"
-                android:text="ubicacio del restaurnat"
+                android:text="📍 ubicacio del restaurnat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/trip"
                     android:paddingLeft="10dp"
-                    android:text="Tripadvisor"
+                    android:text="📑 Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spinner_valor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Japones"
+                        android:layout_gravity="bottom"
+                        android:textSize="11dp"
+                        android:textStyle="italic"
+                        android:gravity="end"
+                        android:layout_weight="2"></TextView>
 
+                </LinearLayout>
             </LinearLayout>
 
 
@@ -147,31 +165,49 @@
             <TextView
                 android:paddingLeft="10dp"
                 android:id="@+id/pag2"
-                android:text="Pagina Web"
+                android:text="🌐 Pagina Web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/tel2"
                 android:paddingLeft="10dp"
-                android:text="telefon del restaurant"
+                android:text="📞 telefon del restaurant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/ubi2"
                 android:paddingLeft="10dp"
-                android:text="ubicacio del restaurnat"
+                android:text="📍 ubicacio del restaurnat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/trip2"
                 android:paddingLeft="10dp"
-                android:text="Tripadvisor"
+                android:text="📑 Tripadvisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spinner_valor2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Italia"
+                    android:layout_gravity="bottom"
+                    android:textSize="11dp"
+                    android:textStyle="italic"
+                    android:gravity="end"
+                    android:layout_weight="2"></TextView>
 
+            </LinearLayout>
         </LinearLayout>
         </TableRow>
         <TableRow
@@ -207,31 +243,48 @@
                 <TextView
                     android:paddingLeft="10dp"
                     android:id="@+id/pag3"
-                    android:text="Pagina Web"
+                    android:text="🌐Pagina Web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/tel3"
                     android:paddingLeft="10dp"
-                    android:text="telefon del restaurant"
+                    android:text="📞 telefon del restaurant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/ubi3"
                     android:paddingLeft="10dp"
-                    android:text="ubicacio del restaurnat"
+                    android:text="📍 ubicacio del restaurnat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/trip3"
                     android:paddingLeft="10dp"
-                    android:text="Tripadvisor"
+                    android:text="📑 Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
-
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Spinner
+                        android:id="@+id/spinner_valor3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EE.UU"
+                        android:layout_gravity="bottom"
+                        android:textSize="11dp"
+                        android:textStyle="italic"
+                        android:gravity="end"
+                        android:layout_weight="2"></TextView>
+                </LinearLayout>
             </LinearLayout>
         </TableRow>
     </TableLayout>

@@ -26,7 +26,7 @@ public class ClCartelera extends AppCompatActivity implements View.OnClickListen
 
 
 
-        //Detectar clic botons:
+
 
         imgmatparc.setOnClickListener(this);
         Glide.with(this)
