@@ -20,7 +20,7 @@ import com.bumptech.glide.Glide;
 public class ClBotigues extends AppCompatActivity implements View.OnClickListener{
     TextView TTel1, TPag1,TRes1, TTel2, TPag2,TRes2, TTel3, TPag3,TRes3, TTel4, TPag4,TRes4, TTel5, TPag5,TRes5;
     TextView[] tex;
-    ImageView imgBotiga1, imgBotiga2, imgBotiga3, imgBotiga4, imgBotiga5;
+    ImageView imgBotiga1, imgBotiga2, imgBotiga3, imgBotiga4, imgBotiga5, imgLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,9 @@ public class ClBotigues extends AppCompatActivity implements View.OnClickListene
         imgBotiga3 = findViewById(R.id.imgBotiga3);
         imgBotiga4 = findViewById(R.id.imgBotiga4);
         imgBotiga5 = findViewById(R.id.imgBotiga5);
+        imgLogo = findViewById(R.id.logo);
+
+        imgLogo.setOnClickListener(this);
 
         TTel1 = findViewById(R.id.telefon1);
         TPag1 = findViewById(R.id.web1);
@@ -175,6 +178,11 @@ public class ClBotigues extends AppCompatActivity implements View.OnClickListene
         if (v.getId() == R.id.resenyes5) {
             Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.esencialmediterraneo.com/mataro/tienda-chijn2iquho1pbirecyorqkui2c#comments"));
             startActivity(intent);
+        }
+
+        if (v.getId() == R.id.logo) {
+            Intent pag = new Intent(this, MainActivity.class);
+            startActivity(pag);
         }
 
 
