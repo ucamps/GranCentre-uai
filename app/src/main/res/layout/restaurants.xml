@@ -84,7 +84,7 @@
             <TextView
                 android:paddingLeft="10dp"
                 android:id="@+id/pag"
-                android:text="Pagina Web"
+                android:text="🌐 Pagina Web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
@@ -92,21 +92,21 @@
                     android:id="@+id/tel"
                     android:paddingLeft="10dp"
 
-                    android:text="telefon del restaurant"
+                    android:text="📞 telefon del restaurant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/ubi"
                 android:paddingLeft="10dp"
-                android:text="ubicacio del restaurnat"
+                android:text="📍 ubicacio del restaurnat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/trip"
                     android:paddingLeft="10dp"
-                    android:text="Tripadvisor"
+                    android:text="📑 Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
                 <LinearLayout
@@ -165,28 +165,28 @@
             <TextView
                 android:paddingLeft="10dp"
                 android:id="@+id/pag2"
-                android:text="Pagina Web"
+                android:text="🌐 Pagina Web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/tel2"
                 android:paddingLeft="10dp"
-                android:text="telefon del restaurant"
+                android:text="📞 telefon del restaurant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/ubi2"
                 android:paddingLeft="10dp"
-                android:text="ubicacio del restaurnat"
+                android:text="📍 ubicacio del restaurnat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
 
             <TextView
                 android:id="@+id/trip2"
                 android:paddingLeft="10dp"
-                android:text="Tripadvisor"
+                android:text="📑 Tripadvisor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"></TextView>
             <LinearLayout
@@ -243,28 +243,28 @@
                 <TextView
                     android:paddingLeft="10dp"
                     android:id="@+id/pag3"
-                    android:text="Pagina Web"
+                    android:text="🌐Pagina Web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/tel3"
                     android:paddingLeft="10dp"
-                    android:text="telefon del restaurant"
+                    android:text="📞 telefon del restaurant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/ubi3"
                     android:paddingLeft="10dp"
-                    android:text="ubicacio del restaurnat"
+                    android:text="📍 ubicacio del restaurnat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/trip3"
                     android:paddingLeft="10dp"
-                    android:text="Tripadvisor"
+                    android:text="📑 Tripadvisor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
                 <LinearLayout
