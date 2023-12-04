@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/azul">
+        android:background="@color/groc">
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content">
 
         <TableRow
-            android:background="@color/azul"
+            android:background="@color/groc"
             android:padding="10dp"
             android:layout_marginBottom="10dp">
 
@@ -59,9 +59,9 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_weight="3"
-                android:background="@color/azul"/>
+                android:background="@color/gris"/>
             <LinearLayout
-                android:background="@color/azul"
+                android:background="@color/gris"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,9 +70,9 @@
                 android:padding="5dp">
 
                 <TextView
-                    android:text="URH Ciutat de Mataró"
+                    android:text="URH Ciutat de Mataró  ★★★★"
                     android:layout_width="wrap_content"
-                    android:textSize="20dp"
+                    android:textSize="14dp"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView android:text="Adreça"
@@ -82,26 +82,28 @@
 
                 <TextView
                     android:id="@+id/web1"
-                    android:text="pagina web"
+                    android:text="Pagina web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/telefon1"
-                    android:text="telefon del restaurant"
+                    android:text="Telefon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/ubi1"
-                    android:text="ubicacio del restaurnat"
+                    android:text="Ubicacio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
         </TableRow>
 
+
+
         <TableRow
-            android:background="@color/azul"
+            android:background="@color/groc"
             android:padding="10dp"
             android:layout_marginBottom="10dp">
             <ImageView
@@ -109,17 +111,19 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_weight="3"
-                android:background="@color/azul" />
+                android:background="@color/gris"/>
             <LinearLayout
+                android:background="@color/gris"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:padding="5dp">
                 <TextView
-                    android:text="Nuevo Hotel Colón"
+                    android:text="Nuevo Hotel Colón ★★★        "
                     android:layout_width="wrap_content"
-                    android:textSize="20dp"
+                    android:textSize="14dp"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView android:text="Adreça"
@@ -129,26 +133,26 @@
 
                 <TextView
                     android:id="@+id/web2"
-                    android:text="pagina web"
+                    android:text="Pagina web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/telefon2"
-                    android:text="telefon del restaurant"
+                    android:text="Telefon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/ubi2"
-                    android:text="ubicacio del restaurnat"
+                    android:text="Ubicacio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
         </TableRow>
 
         <TableRow
-            android:background="@color/azul"
+            android:background="@color/groc"
             android:padding="10dp"
             android:layout_marginBottom="10dp">
             <ImageView
@@ -156,17 +160,19 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_weight="3"
-                android:background="@color/azul" />
+                android:background="@color/gris" />
             <LinearLayout
+                android:background="@color/gris"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:padding="5dp">
                 <TextView
-                    android:text="HOTEL Barcelona Mataró"
+                    android:text="HOTEL Barcelona Mataró ★★"
                     android:layout_width="wrap_content"
-                    android:textSize="18dp"
+                    android:textSize="14dp"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView android:text="Adreça"
@@ -176,19 +182,19 @@
 
                 <TextView
                     android:id="@+id/web3"
-                    android:text="pagina web"
+                    android:text="Pagina web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/telefon3"
-                    android:text="telefon del restaurant"
+                    android:text="Telefon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
                     android:id="@+id/ubi3"
-                    android:text="ubicacio del restaurnat"
+                    android:text="Ubicacio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
