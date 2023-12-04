@@ -8,4 +8,6 @@
     <color name="blanco_fondo">#DCDCDC</color>
     <color name="blanco_claro">#F1F1F1</color>
     <color name="negro">#000000</color>
+    <color name="inicio">#D8DEFF</color>
+
 </resources>
