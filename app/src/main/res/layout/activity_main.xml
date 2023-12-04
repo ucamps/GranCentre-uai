@@ -6,17 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/inicio">
 <ImageView
     android:layout_width="match_parent"
-    android:layout_height="70dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginBottom="10dp"
+    android:layout_height="90dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
 android:src="@drawable/logo"
-    android:textSize="30dp"
     android:text="Mataro Park"
-    android:gravity="center">
-
+    android:gravity="center"
+    >
 </ImageView>
 
     <LinearLayout
@@ -45,7 +45,6 @@ android:src="@drawable/logo"
             android:layout_weight="2"
             android:gravity="right|center_vertical"
             android:contentDescription="null"
-
             />
     </LinearLayout>
     <LinearLayout
@@ -104,16 +103,15 @@ android:src="@drawable/logo"
             android:layout_weight="2"
             android:gravity="right|center_vertical"
             android:contentDescription="null"
-
             />
     </LinearLayout>
 <TextView
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:text="Isaac, Adria, Unai"
-    android:gravity="center"
+    android:gravity="center|bottom"
     android:textColor="@color/gris_oscuro"
-    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
     ></TextView>
 
 </LinearLayout>
