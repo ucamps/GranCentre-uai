@@ -6,75 +6,295 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ClBotigues"
     android:orientation="vertical"
-    android:background="@color/cafe_claro">
+    android:background="@color/blanco_claro">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/cafe"
+        android:background="@color/blanco_fondo"
         >
-
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="2"
-            android:text="Botigues"
+            android:text="BOTIGUES"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:paddingLeft="21dp"></TextView>
 
         <Spinner
-            android:id="@+id/listaComercio"
-            android:layout_width="0dp"
+            android:id="@+id/llistaBotigues"
+            android:layout_width="60dp"
             android:layout_height="48dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="2"
+
             />
-    </LinearLayout>
+
+</LinearLayout>
     <TableLayout
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TableRow>
 
+        <TableRow
+            android:background="@color/blanco_fondo"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
 
+            <ImageView
+                android:id="@+id/imgBotiga1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/blanco_fondo">
+
+            </ImageView>
             <LinearLayout
+                android:background="@color/blanco_fondo"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_gravity="center">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/jdLogo"
-
-                    />
+                android:layout_gravity="center"
+                android:padding="5dp">
 
                 <TextView
-
-                    android:text="Jdesports"
+                    android:textStyle="bold"
+                    android:text="JDSports"
                     android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:textSize="20dp"
                     android:layout_height="wrap_content"></TextView>
 
-
                 <TextView
-                    android:id="@+id/pag"
-                    android:text="pagina web del restaurant"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/web1"
+                    android:text="Pagina Web"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
-                    android:id="@+id/ubi"
-                    android:text="planta Nº3"
+                    android:id="@+id/telefon1"
+                    android:paddingLeft="10dp"
+                    android:text="telefon de la botiga"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
 
                 <TextView
-                    android:id="@+id/tel"
-                    android:text="telefon botiga"
+                    android:id="@+id/resenyes1"
+                    android:paddingLeft="10dp"
+                    android:text="Resenyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/blanco_fondo"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBotiga2"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/blanco_fondo">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/blanco_fondo"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="ZARA"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/web2"
+                    android:text="Pagina Web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/telefon2"
+                    android:paddingLeft="10dp"
+                    android:text="telefon de la botiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/resenyes2"
+                    android:paddingLeft="10dp"
+                    android:text="Resenyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/blanco_fondo"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBotiga3"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/blanco_fondo">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/blanco_fondo"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="GUESS"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/web3"
+                    android:text="Pagina Web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/telefon3"
+                    android:paddingLeft="10dp"
+                    android:text="telefon de la botiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/resenyes3"
+                    android:paddingLeft="10dp"
+                    android:text="Resenyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/blanco_fondo"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBotiga4"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/blanco_fondo">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/blanco_fondo"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="MANGO"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/web4"
+                    android:text="Pagina Web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/telefon4"
+                    android:paddingLeft="10dp"
+                    android:text="telefon de la botiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/resenyes4"
+                    android:paddingLeft="10dp"
+                    android:text="Resenyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:background="@color/blanco_fondo"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/imgBotiga5"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:background="@color/blanco_fondo">
+
+            </ImageView>
+            <LinearLayout
+                android:background="@color/blanco_fondo"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="PULL-BEAR"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/web5"
+                    android:text="Pagina Web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/telefon5"
+                    android:paddingLeft="10dp"
+                    android:text="telefon de la botiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/resenyes5"
+                    android:paddingLeft="10dp"
+                    android:text="Resenyes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>

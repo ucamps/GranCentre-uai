@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Mataro Parc</string>
     <string-array name="social_networks_array">
-        <item>None</item>
-        <item>Japonesa</item>
-        <item>italia</item>
-        <item>Francesa</item>
-        <item>Americana</item>
+        <item>FILTRAR: CAP</item>
+        <item>FILTRAR: ROBA</item>
+        <item>FILTRAR: ELECTRODOMESTICS</item>
+        <item>FILTRAR: JOIES</item>
     </string-array>
 </resources>
