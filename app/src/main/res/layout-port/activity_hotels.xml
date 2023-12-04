@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ClHotel"
-    android:orientation="vertical"
-    android:background="@color/cafe_claro">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/cafe">
+        android:background="@color/azul">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,8 +22,8 @@
 
         <Spinner
             android:id="@+id/spinner_hotels"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             />
@@ -34,10 +34,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TableRow>
+        <TableRow
+            android:background="@color/azul"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
             <ImageView
-                android:layout_weight="3"                android:id="@+id/imgHotel1"
-                android:layout_marginStart="10dp"/>
+                android:id="@+id/imgHotel1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3" />
             <LinearLayout
                 android:layout_weight="2"
                 android:layout_width="match_parent"
@@ -45,7 +51,7 @@
                 android:orientation="vertical"
                 android:layout_gravity="center">
                 <TextView
-                    android:text="Nom Hotel"
+                    android:text="URH Ciutat de Mataró"
                     android:layout_width="wrap_content"
                     android:textSize="20dp"
                     android:layout_height="wrap_content"></TextView>
@@ -76,51 +82,94 @@
         </TableRow>
 
         <TableRow
-            android:layout_marginTop="10dp">
+            android:background="@color/azul"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
             <ImageView
-                android:layout_width="215dp"
-                android:layout_height="130dp"
                 android:id="@+id/imgHotel2"
-                android:layout_marginStart="10dp"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3"/>
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="Nuevo Hotel Colón"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"></TextView>
 
-            <TextView
-                android:text="Nom hotel"
-                android:typeface="monospace"
-                android:textStyle="bold"
-                android:textColor="#818285"
-                android:textSize="18sp"/>
+                <TextView android:text="Adreça"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email2"></TextView>
 
-            <Button
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:text="Email"
-                android:id="@+id/btEmail1"
-                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"/>
+                <TextView
+                    android:id="@+id/web2"
+                    android:text="pagina web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
 
+                <TextView
+                    android:id="@+id/telefon2"
+                    android:text="telefon del restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
 
+                <TextView
+                    android:id="@+id/ubi2"
+                    android:text="ubicacio del restaurnat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
         </TableRow>
-
-        <TableRow>
+        <TableRow
+            android:background="@color/azul"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
             <ImageView
-                android:layout_width="215dp"
-                android:layout_height="130dp"
                 android:id="@+id/imgHotel3"
-                android:layout_marginStart="10dp"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3"/>
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:text="HOTEL Barcelona Mataró"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_height="wrap_content"></TextView>
 
-            <TextView
-                android:text="Nom Hotel"
-                android:typeface="monospace"
-                android:textStyle="bold"
-                android:textColor="#818285"
-                android:textSize="18sp"/>
+                <TextView android:text="Adreça"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email3"></TextView>
 
-            <Button
-                android:id="@+id/btGps3"
-                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
-                android:text="GPS" />
+                <TextView
+                    android:id="@+id/web3"
+                    android:text="pagina web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
 
+                <TextView
+                    android:id="@+id/telefon3"
+                    android:text="telefon del restaurant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+
+                <TextView
+                    android:id="@+id/ubi3"
+                    android:text="ubicacio del restaurnat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
         </TableRow>
 
     </TableLayout>
