@@ -28,7 +28,7 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
         imgHotel3 = findViewById(R.id.imgHotel3);
 
         Glide.with(this)
-                .load("")
+                .load("https://www.urhciutatdemataro.com/wp-content/blogs.dir/1491/files/gallery_photos/Fotos-foto01.jpg")
                 .error(R.drawable.ic_error_foreground)
                 .into(imgHotel1);
 
@@ -50,12 +50,12 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
         }
 
         if (v.getId() == R.id.web1) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.guestreservations.com/urh-ciutat-de-mataro/booking?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8QPE9xacCPQS9WMg0U-1ln3zcpxzodNtoKDf4RSwH2emV-BYiXk8EAaAi27EALw_wcB"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("https://www.urhciutatdemataro.com/es/"));
             startActivity(intent);
         }
 
         if (v.getId() == R.id.telefon1) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:911238107"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:937 575 522"));
             startActivity(intent);
         }
 
@@ -64,7 +64,7 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
             startActivity(intent);
         }
         if (v.getId() == R.id.email2) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:exemple@gmail.com"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:info.urhmataro@urh-hoteliers.com"));
             startActivity(intent);
         }
 
