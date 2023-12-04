@@ -82,7 +82,7 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
         }
 
         if (v.getId() == R.id.email1) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:exemple@gmail.com"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:info.urhmataro@urh-hoteliers.com"));
             startActivity(intent);
         }
 
@@ -101,7 +101,7 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
             startActivity(intent);
         }
         if (v.getId() == R.id.email2) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:info.urhmataro@urh-hoteliers.com"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("mailto:info@newhotelcolon.com"));
             startActivity(intent);
         }
 
@@ -111,7 +111,7 @@ public class ClHotel extends AppCompatActivity implements View.OnClickListener{
         }
 
         if (v.getId() == R.id.telefon2) {
-            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:911238107"));
+            Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse("tel:931785839"));
             startActivity(intent);
         }
 
