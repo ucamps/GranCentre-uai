@@ -72,5 +72,7 @@ public class ClRestaurant extends AppCompatActivity implements View.OnClickListe
                 R.array.social_networks_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+
     }
 }
