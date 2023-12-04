@@ -73,7 +73,8 @@
                     android:text="URH Ciutat de Mataró  ★★★★"
                     android:layout_width="wrap_content"
                     android:textSize="14dp"
-                    android:layout_height="wrap_content"></TextView>
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"></TextView>
 
                 <TextView android:text="Adreça"
                     android:layout_width="wrap_content"
@@ -124,12 +125,14 @@
                     android:text="Nuevo Hotel Colón ★★★        "
                     android:layout_width="wrap_content"
                     android:textSize="14dp"
-                    android:layout_height="wrap_content"></TextView>
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"></TextView>
 
                 <TextView android:text="Adreça"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/email2"></TextView>
+                    android:id="@+id/email2"
+                    ></TextView>
 
                 <TextView
                     android:id="@+id/web2"
@@ -173,7 +176,8 @@
                     android:text="HOTEL Barcelona Mataró ★★"
                     android:layout_width="wrap_content"
                     android:textSize="14dp"
-                    android:layout_height="wrap_content"></TextView>
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"></TextView>
 
                 <TextView android:text="Adreça"
                     android:layout_width="wrap_content"
