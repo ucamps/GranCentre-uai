@@ -13,7 +13,6 @@
         android:layout_height="70dp"
         android:background="@color/blanco_fondo"
         >
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,64 +30,55 @@
             android:layout_height="wrap_content"
             android:src="@drawable/logo"
             android:paddingRight="5dp">
-
         </ImageView>
     </LinearLayout>
+
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
-
-        <ImageView
-            android:layout_width="380dp"
-            android:layout_height="240dp"
-            android:src="@drawable/plantaadalt"
-            android:layout_gravity="center"
-            >
-        </ImageView>
-
-        <TextView
-            android:layout_width="wrap_content"
+        android:layout_gravity="center">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PLANTA Nº1"
-            android:layout_gravity="center"
-            >
-        </TextView>
-        <ImageView
-            android:layout_width="380dp"
-            android:layout_height="240dp"
-            android:src="@drawable/plantamitg"
-            android:layout_gravity="center"
-            >
-        </ImageView>
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PLANTA Nº2"
-            android:layout_gravity="center"
-            >
-        </TextView>
-        <ImageView
-            android:layout_width="380dp"
-            android:layout_height="240dp"
-            android:src="@drawable/pantabaixa"
-            android:layout_gravity="center"
-            >
-        </ImageView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PLANTA Nº3"
-            android:layout_gravity="center"
-            >
-        </TextView>
-    </LinearLayout>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/plantaadalt"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PLANTA Nº1"></TextView>
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:src="@drawable/plantamitg"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PLANTA Nº2"></TextView>
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pantabaixa"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PLANTA Nº3"></TextView>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>
